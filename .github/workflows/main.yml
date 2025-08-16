@@ -1,0 +1,18 @@
+name: Ga First Wf
+on:
+  push:
+    branches:
+      - main
+jobs:
+  firstJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First step
+        run: printenv
+      - name: second step
+        run: |
+          echo "samba xidma"
+          echo "hello amigo" > file.txt
+          ls
+      
+  
