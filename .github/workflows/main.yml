@@ -15,6 +15,6 @@ jobs:
           echo "hello amigo" > file.txt
           ls
           cat file.txt
-      - name: Sleep step
+      - name: sleep step
         run: Sleep 20
   
