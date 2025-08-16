@@ -18,7 +18,7 @@ jobs:
       - name: Sleep step
         run: sleep 4
       - name: First Action
-        uses: actions/checkout@4.2.2
+        uses: actions/checkout@v4
       - name: Ls repo
         run: |
           ls
